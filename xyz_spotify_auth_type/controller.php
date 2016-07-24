@@ -22,14 +22,14 @@ class Controller extends Package
     {
         return t('Spotify Auth Type');
     }
-/*	
+	
 	public function on_start()
     {
-        $app = Core::make('app');
-        $provider = new \Concrete\Package\XyzSpotifyAuthType\Src\Authentication\Type\Spotify\ServiceProvider($app);
+        $app = Core::make('authentication/spotify');
+        $provider = new \Concrete\Package\XyzSpotifyAuthType\src\Authentication\Type\Spotify\ServiceProvider($app);
         $provider->register();
     }
-*/
+
     public function install()
     {
         $pkg = parent::install();
