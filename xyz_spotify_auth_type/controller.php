@@ -11,7 +11,7 @@ class Controller extends Package
     protected $pkgHandle = 'xyz_spotify_auth_type';
     protected $appVersionRequired = '5.7.5.8';
     protected $pkgVersion = '0.0001';
-	protected $pkgAutoloaderMapCoreExtensions = true;
+    protected $pkgAutoloaderMapCoreExtensions = true;
 
     public function getPackageDescription()
     {
