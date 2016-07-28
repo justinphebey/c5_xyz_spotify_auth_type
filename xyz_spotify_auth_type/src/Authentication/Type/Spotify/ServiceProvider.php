@@ -1,9 +1,9 @@
 <?php
-namespace Concrete\Package\XyzSpotifyAuthType\Authentication\Type\Spotify;
+namespace Concrete\Package\XyzSpotifyAuthType\Src\Authentication\Type\Spotify;
 
-use OAuth\Common\Consumer\Credentials;
-use OAuth\Common\Storage\SymfonySession;
-use OAuth\ServiceFactory;
+use \OAuth\Common\Consumer\Credentials;
+use \OAuth\Common\Storage\SymfonySession;
+use \OAuth\ServiceFactory;
 
 class ServiceProvider extends \Concrete\Core\Foundation\Service\Provider
 {

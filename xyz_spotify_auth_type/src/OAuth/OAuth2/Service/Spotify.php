@@ -1,15 +1,15 @@
 <?php
-namespace Concrete\Package\XyzSpotifyAuthType\OAuth\OAuth2\Service;
+namespace Concrete\Package\XyzSpotifyAuthType\Src\OAuth\OAuth2\Service;
 
-use OAuth\OAuth2\Token\StdOAuth2Token;
-use OAuth\Common\Http\Exception\TokenResponseException;
-use OAuth\Common\Http\Uri\Uri;
-use OAuth\Common\Consumer\CredentialsInterface;
-use OAuth\Common\Http\Client\ClientInterface;
-use OAuth\Common\Storage\TokenStorageInterface;
-use OAuth\Common\Http\Uri\UriInterface;
+use \OAuth\OAuth2\Token\StdOAuth2Token;
+use \OAuth\Common\Http\Exception\TokenResponseException;
+use \OAuth\Common\Http\Uri\Uri;
+use \OAuth\Common\Consumer\CredentialsInterface;
+use \OAuth\Common\Http\Client\ClientInterface;
+use \OAuth\Common\Storage\TokenStorageInterface;
+use \OAuth\Common\Http\Uri\UriInterface;
 
-class Spotify extends AbstractService
+class Spotify extends \OAuth\OAuth2\Service\AbstractService
 {
     /**
      * Scopes

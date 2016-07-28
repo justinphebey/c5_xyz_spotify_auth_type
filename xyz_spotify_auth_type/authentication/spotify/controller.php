@@ -3,8 +3,8 @@ namespace Concrete\Package\XyzSpotifyAuthType\Authentication\Spotify;
 
 defined('C5_EXECUTE') or die('Access Denied');
 
-use Concrete\Core\Authentication\Type\OAuth\OAuth2\GenericOauth2TypeController;
-use Concrete\Package\XyzSpotifyAuthType\OAuth\OAuth2\Service\Spotify;
+use \Concrete\Core\Authentication\Type\OAuth\OAuth2\GenericOauth2TypeController;
+use \Concrete\Package\XyzSpotifyAuthType\Src\OAuth\OAuth2\Service\Spotify;
 
 class Controller extends GenericOauth2TypeController
 {
